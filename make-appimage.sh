@@ -11,6 +11,8 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=PATH_OR_URL_TO_ICON
 export DESKTOP=PATH_OR_URL_TO_DESKTOP_ENTRY
 export DEPLOY_GTK=1
+export GTK_DIR=gtk-4.0
+export GTK_CLASS_FIX=1
 
 # Deploy dependencies
 quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
